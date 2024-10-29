@@ -44,5 +44,48 @@
 .app{
     height:100vh;
     width:100vw;
-    background-color: greenyellow;
+    background-color: var(--GrayishWhite);
+}
+.top-shape,.bottom-shape{
+    position:absolute;
+    height:55vh;
+    width:50vw;
+}
+.top-shape{
+    top:0;
+    left:0;
+    background: linear-gradient(180deg, var(--LightMagenta) 0%, var(--LightViolet) 100%);
+    border-radius:0rem 0rem 1000rem 0rem;
+}
+.bottom-shape{
+    bottom:0;
+    right:0;
+    background: linear-gradient(180deg, var(--LightMagenta) 0%, var(--LightViolet) 100%);
+    border-radius:1000rem 0rem 0rem 0rem;
+    opacity:5%;
+}
+
+
+@media only screen and (min-width:768px){
+    .app{
+        background-color: var(--GrayishWhite);
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .app{
+        background-color: var(--GrayishWhite);
+    }
+    .top-shape,.bottom-shape{
+        height:80vh;
+        width:33vw;
+        background-color:black;
+    }
+    .top-shape{
+        border-radius:0rem 0rem 100rem 100rem;
+    }
+    .bottom-shape{
+        width:25vw;
+        border-radius:1000rem 0rem 0rem 0rem;
+    }
 }

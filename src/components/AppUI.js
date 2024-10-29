@@ -8,7 +8,8 @@ import DogPic3 from '../assets/images/dog-image-3.jpg';
 
 const AppUI = () => {
     return <div className="app">
-
+        <div className="top-shape"></div>
+        <div className="bottom-shape"></div>
     </div>
 };
 export default AppUI;
