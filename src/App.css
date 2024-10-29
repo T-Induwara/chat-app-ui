@@ -1,0 +1,30 @@
+:root{
+    /*Primary colors of the UI*/
+    --PaleViolet : hsl(276, 100%, 81%); /*sub-heading at the top of the app UI*/
+    --ModerateViolet : hsl(276, 55%, 52%); /*chat on the left*/
+    --DesaturatedDarkViolet : hsl(271, 15%, 43%); /*chat on the right*/
+    --GrayishBlue : hsl(206, 6%, 79%); /*placeholder text*/
+    --VeryDarkDesaturatedViolet : hsl(271, 36%, 24%); /*main heading*/
+    --DarkGrayishViolet : hsl(270, 7%, 64%); /*paragraph*/
+
+    /*Colors for the gradient designs*/
+    --LightMagenta: hsl(293, 100%, 63%);
+    --LightViolet: hsl(264, 100%, 61%);
+
+    /*Colors for other elements*/
+    --GrayishWhite : hsl(0, 0%, 98%); /*Page background*/
+    --White : hsl(0, 0%, 100%); /*Device border*/
+    --LightGrayishViolet : hsl(270, 20%, 96%); /*app background*/
+    --VeryDarkDesaturatedViolet : hsl(271, 36%, 24%); /*submit button background*/
+    --VeryLightMagenta : hsl(289, 100%, 72%); /*radio button outline*/
+}
+*{
+    margin:0;
+    padding:0;
+    background-color: red;
+}
+.app{
+    height:100vh;
+    width:100vw;
+    background-color: greenyellow;
+}
