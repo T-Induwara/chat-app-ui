@@ -1,10 +1,9 @@
 import './App.css';
+import AppUI from './components/AppUI';
 
 function App() {
   return (
-    <div className="App">
-      {/*My codes goes here*/}
-    </div>
+    <AppUI></AppUI>
   );
 }
 
