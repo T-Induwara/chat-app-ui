@@ -18,6 +18,24 @@
     --VeryDarkDesaturatedViolet : hsl(271, 36%, 24%); /*submit button background*/
     --VeryLightMagenta : hsl(289, 100%, 72%); /*radio button outline*/
 }
+
+/*Fonts*/
+@font-face{
+    font-family:'Rubik400';
+    src: url('./assets/font/Rubik-Regular-400.ttf');
+    font-style:normal;
+}
+@font-face{
+    font-family:'Rubit500';
+    src: url('./assets/font/Rubik-Medium-500.ttf');
+    font-style:normal;
+}
+@font-face{
+    font-family:'Rubik700';
+    src: url('./assets/font/Rubik-Bold-700.ttf');
+    font-style:normal;
+}
+
 *{
     margin:0;
     padding:0;
