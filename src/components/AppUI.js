@@ -13,7 +13,11 @@ const AppUI = () => {
         <div className="container app-wrapper">
             <div className="row d-flex wrapper-row">
                 <div className="app-border">
-                    <div className="app-ui"></div>
+                    <div className="app-ui">
+                        <div className="ui-notch"></div>
+                        <div classname="ui-header"></div>
+                        <div className="ui-content"></div>
+                    </div>
                 </div>
                 <div className="d-flex flex-column text-wrapper">
                     <h1 className="app-title">Simple Booking</h1>
