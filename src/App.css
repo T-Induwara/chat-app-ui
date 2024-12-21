@@ -71,13 +71,13 @@
     z-index:100 !important;
 }
 .app-border{
-    flex:50%;
-    height:50vh;
+    flex:65%;
+    height:70vh;
     background-color: rgb(174, 221, 87);
 }
 .text-wrapper{
-    flex:50%;
-    height:50vh;
+    flex:35%;
+    height:20vh;
     background-color: rgb(175, 100, 29);
 }
 /*CSS for app wrapper in mobile*/
@@ -104,9 +104,11 @@
         align-items: center;
     }
     .app-border{
+        flex:50%;
         height:80vh;
     }
     .text-wrapper{
+        flex:50%;
         height:80vh;
     }
 }
