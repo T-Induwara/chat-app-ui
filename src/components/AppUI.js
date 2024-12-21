@@ -15,8 +15,9 @@ const AppUI = () => {
                 <div className="app-border">
                     <div className="app-ui"></div>
                 </div>
-                <div className="text-wrapper">
-
+                <div className="d-flex flex-column text-wrapper">
+                    <h1 className="app-title">Simple Booking</h1>
+                    <p className="app-desc">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
                 </div>
             </div>
         </div>

@@ -26,7 +26,7 @@
     font-style:normal;
 }
 @font-face{
-    font-family:'Rubit500';
+    font-family:'Rubik500';
     src: url('./assets/font/Rubik-Medium-500.ttf');
     font-style:normal;
 }
@@ -78,7 +78,6 @@
 .text-wrapper{
     flex:35%;
     height:20vh;
-    background-color: rgb(175, 100, 29);
 }
 /*CSS for app wrapper in mobile*/
 .app-wrapper{
@@ -86,6 +85,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.text-wrapper{
+    justify-content: center;
+}
+
+/*CSS for texts on desktop*/
+.app-title{
+    font-family:'Rubik500';
+    text-align: center;
+    font-size:2.5rem;
+    color:var(--VeryDarkDesaturatedViolet);
+}
+.app-desc{
+    margin:1rem 0rem;
+    font-family:'Rubik400';
+    text-align: center;
+    font-size:1rem;
+    color:var(--DarkGrayishViolet);
 }
 
 @media only screen and (min-width:768px){
@@ -99,7 +117,6 @@
     }
     /*CSS for app wrapper in tablet*/
     .app-wrapper{
-        display:flex;
         flex-direction: row;
         align-items: center;
     }
@@ -110,6 +127,14 @@
     .text-wrapper{
         flex:50%;
         height:80vh;
+    }
+
+    /*CSS for texts on tablet*/
+    .app-title{
+        text-align: left;
+    }
+    .app-desc{
+        text-align: justify;
     }
 }
 
@@ -135,8 +160,19 @@
     }
     /*CSS for app wrapper in dekstop*/
     .app-wrapper{
-        display:flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .text-wrapper{
+        justify-content: center;
+    }
+
+    /*CSS for texts on desktop*/
+    .app-title{
+        text-align: left;
+    }
+    .app-desc{
+        width:70%;
     }
 }
