@@ -39,7 +39,6 @@
 *{
     margin:0;
     padding:0;
-    background-color: red;
 }
 .app{
     height:100vh;
@@ -50,6 +49,7 @@
     position:absolute;
     height:55vh;
     width:50vw;
+    z-index:1 !important;
 }
 .top-shape{
     top:0;
@@ -64,7 +64,23 @@
     border-radius:1000rem 0rem 0rem 0rem;
     opacity:5%;
 }
-
+.wrapper-row{
+    width:100% !important;
+    flex-direction: column;
+    z-index:100 !important;
+}
+.app-border{
+    flex:50%;
+    width:80vw;
+    height:80vh;
+    background-color: aqua;
+}
+.text-wrapper{
+    flex:50%;
+    width:80vw;
+    height:80vh;
+    background-color: blueviolet;
+}
 
 @media only screen and (min-width:768px){
     .app{
@@ -87,5 +103,9 @@
     .bottom-shape{
         width:25vw;
         border-radius:1000rem 0rem 0rem 0rem;
+    }
+    .wrapper-row{
+        width:100% !important;
+        flex-direction: row;
     }
 }
