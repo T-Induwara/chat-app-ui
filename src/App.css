@@ -108,4 +108,10 @@
         width:100% !important;
         flex-direction: row;
     }
+    /*CSS for app wrapper in dekstop*/
+    .app-wrapper{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
