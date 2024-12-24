@@ -12,11 +12,13 @@ const AppUI = () => {
         <div className="bottom-shape"></div>
         <div className="container app-wrapper">
             <div className="row d-flex wrapper-row">
-                <div className="app-border">
+                <div className="app-border d-flex flex-column">
                     <div className="app-ui">
-                        <div className="ui-notch"></div>
-                        <div classname="ui-header"></div>
-                        <div className="ui-content"></div>
+                        <div className="app-body d-flex flex-column">
+                            <div className="ui-notch"></div>
+                            <div className="ui-header"></div>
+                            <div className="ui-content"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="d-flex flex-column text-wrapper">
