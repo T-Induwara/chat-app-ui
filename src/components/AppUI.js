@@ -21,13 +21,15 @@ const AppUI = () => {
                                 <div className="header-col"></div>
                                 {/*Below div is for app header contents*/}
                                 <div className="d-flex flex-row header-col"> 
-                                    <div className="d-flex flex-row img-col">
-                                        <img src={BackIcon} className="back-icon" alt="Back icon"></img>
-                                        <img src={Avatar} className="user-img" alt="User avatar"></img>
-                                    </div>
-                                    <div className="d-flex flex-column data-col">
-                                        <p className="username">Samuel Green</p>
-                                        <p className="user-status">Available to Walk</p>
+                                    <div className="d-flex flex-row user-col">
+                                        <div className="d-flex flex-row img-col">
+                                            <img src={BackIcon} className="back-icon" alt="Back icon"></img>
+                                            <img src={Avatar} className="user-img" alt="User avatar"></img>
+                                        </div>
+                                        <div className="d-flex flex-column data-col">
+                                            <p className="username">Samuel Green</p>
+                                            <p className="user-status">Available to Walk</p>
+                                        </div>
                                     </div>
                                     <div className="d-flex flex-column menu-col">
                                         <div className="menu-circle"></div>

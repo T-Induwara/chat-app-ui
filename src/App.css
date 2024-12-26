@@ -138,6 +138,7 @@
     background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
     margin-top:-1.2rem;
     border-radius:1.8rem 1.8rem 0.5rem 0.5rem;
+    padding:0rem 1rem 1rem 1rem;
 }
 .ui-content{
     width:100%;
@@ -148,11 +149,20 @@
 /*CSS for App UI contents*/
 .header-col{
     flex:50%;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    
 }
+/*CSS for user col start*/
+.user-col{
+    gap:0.8rem;
+}
+/*CSS for user col end*/
+
 /*CSS for img col start*/
 .img-col{
     align-items: center;
+    gap:0.3rem;
 }
 .back-icon{
     width:15px;
@@ -187,12 +197,12 @@
 .menu-col{
     align-items: center;
     justify-content: center;
-    gap:3px;
+    gap:2px;
 }
 .menu-circle{
     background-color: var(--White);
-    width:3px;
-    height:3px;
+    width:2px;
+    height:2px;
     border-radius:10rem;
 }
 /*CSS for menu col end*/
