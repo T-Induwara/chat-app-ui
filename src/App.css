@@ -145,6 +145,25 @@
     background-color:var(--LightGrayishViolet);
     border-radius:0rem 0rem 1.8rem 1.8rem;
 }
+/*CSS for App UI contents*/
+.header-col{
+    flex:50%;
+}
+/*CSS for img col start*/
+.img-col{
+    align-items: center;
+}
+.back-icon{
+    width:15px;
+    height:20px;
+}
+.user-img{
+    width:30px;
+    height:30px;
+    border-radius:10rem;
+    border:2px solid var(--White);
+}
+/*CSS for img col ends*/
 
 @media only screen and (min-width:768px){
     .app{
