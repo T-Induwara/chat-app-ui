@@ -16,7 +16,9 @@ const AppUI = () => {
                     <div className="app-ui">
                         <div className="app-body d-flex flex-column">
                             <div className="ui-notch"></div>
-                            <div className="ui-header"></div>
+                            <div className="ui-header">
+                                
+                            </div>
                             <div className="ui-content"></div>
                         </div>
                     </div>

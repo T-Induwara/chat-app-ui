@@ -293,9 +293,17 @@
         align-items: center;
         justify-content: center;
     }
+    /*
     .app-ui{
         height:95%;
         width:55%;
+        border-radius:2.8rem;
+        padding:1rem;
+    }
+    */
+    .app-ui{
+        height:600px;
+        width:290px;
         border-radius:2.8rem;
         padding:1rem;
     }
