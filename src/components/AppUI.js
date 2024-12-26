@@ -30,9 +30,9 @@ const AppUI = () => {
                                         <p className="user-status">Available to Walk</p>
                                     </div>
                                     <div className="d-flex flex-column menu-col">
-                                        <div className="menu-content"></div>
-                                        <div className="menu-content"></div>
-                                        <div className="menu-content"></div>
+                                        <div className="menu-circle"></div>
+                                        <div className="menu-circle"></div>
+                                        <div className="menu-circle"></div>
                                     </div>
                                 </div>
                             </div>
