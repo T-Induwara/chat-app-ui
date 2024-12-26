@@ -87,7 +87,7 @@ const AppUI = () => {
                                 <div className="d-flex flex-row content-col">
                                     <input type="text" placeholder="Type a message..." className="text-placeholder"></input>
                                     <div className="send-btn">
-
+                                        <img src={SendIcon} className="send-icon" alt="Send button icon"/>
                                     </div>
                                 </div>
                             </div>
