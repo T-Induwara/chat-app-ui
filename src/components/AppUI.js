@@ -39,7 +39,7 @@ const AppUI = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="ui-content">
+                            <div className="d-flex flex-column justify-content-between ui-content">
                                 <div className="d-flex flex-column align-items-left content-col">
                                     <p className="left-chat">
                                         That sounds great. I'd be happy with that.

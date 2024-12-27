@@ -41,13 +41,13 @@
     padding:0;
 }
 .app{
-    height:100vh;
+    /*height:100vh;*/
     width:100vw;
     background-color: var(--GrayishWhite);
 }
 .top-shape,.bottom-shape{
     position:absolute;
-    height:55vh;
+    height:60vh;
     width:50vw;
     z-index:1 !important;
 }
@@ -71,12 +71,12 @@
     z-index:100 !important;
 }
 .app-border{
-    flex:65%;
+    flex:70%;
     height:70vh;
 }
 .text-wrapper{
-    flex:35%;
-    height:20vh;
+    flex:30%;
+    height:30vh;
 }
 /*CSS for app wrapper in mobile*/
 .app-wrapper{
@@ -107,11 +107,12 @@
 
 /*CSS for app UI on mobile*/
 .app-border{
+    padding-top:1rem;
     align-items: center;
     justify-content: center;
 }
 .app-ui{
-    height:90%;
+    height:100%;
     width:75%;
     background-color:var(--White);
     border-radius:2.5rem;
@@ -134,11 +135,11 @@
 }
 .ui-header{
     width:100%;
-    height:20%;
+    height:15%;
     background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
-    margin-top:-1.2rem;
+    margin-top:-1.4rem;
     border-radius:1.8rem 1.8rem 0.5rem 0.5rem;
-    padding:0rem 1rem 1rem 1rem;
+    padding:0rem 1rem 0.5rem 1rem;
 }
 .ui-content{
     width:100%;
@@ -275,8 +276,6 @@ input[type='radio']:checked:after {
     font-family:'Rubik700';
     font-size:0.7rem;
 }
-.msg-col{
-}
 .msg-placeholder{
     width:100%;
     background-color:var(--White);
@@ -286,6 +285,7 @@ input[type='radio']:checked:after {
 .text-placeholder{
     font-family:'Rubik400';
     font-size:0.6rem;
+    padding-left:0.5rem;
     outline:none;
     border:0px;
     background-color:var(--White);
@@ -293,7 +293,7 @@ input[type='radio']:checked:after {
 .text-placeholder::placeholder{
     font-family:'Rubik400';
     font-size:0.6rem;
-    padding-left:1rem;
+    padding-left:0.5rem;
 }
 .send-btn{
     width:1.4rem;
@@ -303,7 +303,7 @@ input[type='radio']:checked:after {
     border-radius:10rem;
 }
 
-/*CSS for chat section start*/
+/*CSS for chat section end*/
 
 
 @media only screen and (min-width:768px){
@@ -321,6 +321,7 @@ input[type='radio']:checked:after {
         align-items: center;
     }
     .app-border{
+        padding-top:0rem;
         flex:50%;
         height:80vh;
     }
@@ -345,13 +346,13 @@ input[type='radio']:checked:after {
     .app-ui{
         height:70%;
         width:85%;
-        border-radius:2.5rem;
+        border-radius:2rem;
         padding:0.8rem;
     }
     .app-body{
         height:100%;
         width:100%;
-        border-radius: 1.5rem;
+        border-radius: 1.2rem;
         align-items: center;
     }
     .ui-notch{
@@ -364,7 +365,7 @@ input[type='radio']:checked:after {
         width:100%;
         height:20%;
         margin-top:-1.4rem;
-        border-radius:1.8rem 1.8rem 0.5rem 0.5rem;
+        border-radius:1.2rem 1.2rem 0.5rem 0.5rem;
     }
     .ui-content{
         width:100%;
@@ -378,8 +379,8 @@ input[type='radio']:checked:after {
         background-color: var(--GrayishWhite);
     }
     .top-shape,.bottom-shape{
-        height:80vh;
-        width:33vw;
+        height:85vh;
+        width:25vw;
         background-color:black;
     }
     .top-shape{
@@ -419,13 +420,13 @@ input[type='radio']:checked:after {
     .app-ui{
         height:95%;
         width:53%;
-        border-radius:2.8rem;
+        border-radius:2rem;
         padding:0.8rem;
     }
     .app-body{
         height:100%;
         width:100%;
-        border-radius: 2.5rem;
+        border-radius: 1.2rem;
         align-items: center;
     }
     .ui-notch{
@@ -437,14 +438,43 @@ input[type='radio']:checked:after {
     .ui-header{
         width:100%;
         height:20%;
-        margin-top:-1.6rem;
-        border-radius:1.8rem 1.8rem 0.5rem 0.5rem;
+        margin-top:-1.4rem;
+        border-radius:1.2rem 1.2rem 0.5rem 0.5rem;
     }
     .ui-content{
         width:100%;
         height:100%;
         border-radius:0rem 0rem 2.5rem 2.5rem;
     }
+
+    /*CSS for chat section start*/
+    .msg-placeholder{
+        width:100%;
+        background-color:var(--White);
+        padding:0.4rem 0.6rem;
+        border-radius:10rem;
+    }
+    .text-placeholder{
+        font-family:'Rubik400';
+        font-size:0.6rem;
+        padding-left:0.5rem;
+        outline:none;
+        border:0px;
+        background-color:var(--White);
+    }
+    .text-placeholder::placeholder{
+        font-family:'Rubik400';
+        font-size:0.6rem;
+        padding-left:0.5rem;
+    }
+    .send-btn{
+        width:2rem;
+        height:2rem;
+        background-color:var(--VeryDarkDesaturatedViolet);
+        padding:0.4rem;
+        border-radius:10rem;
+    }
+    /*CSS for chat section end*/
 }
 
 @media only screen and (min-width:1400px){
@@ -464,13 +494,13 @@ input[type='radio']:checked:after {
     .app-ui{
         height:600px;
         width:290px;
-        border-radius:2.8rem;
+        border-radius:2rem;
         padding:0.8rem;
     }
     .app-body{
         height:100%;
         width:100%;
-        border-radius: 2rem;
+        border-radius: 1.2rem;
         align-items: center;
     }
     .ui-notch{
@@ -483,7 +513,7 @@ input[type='radio']:checked:after {
         width:100%;
         height:20%;
         margin-top:-10%;
-        border-radius:1.8rem 1.8rem 0.5rem 0.5rem;
+        border-radius:1.2rem 1.2rem 0.5rem 0.5rem;
     }
     .ui-content{
         width:100%;
