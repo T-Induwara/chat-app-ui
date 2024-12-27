@@ -61,13 +61,13 @@ const AppUI = () => {
                                         Can you make it?
                                     </p>
                                 </div>
-                                <div className="content-col">
+                                <div className="d-flex flex-column align-items-left gap-2 content-col">
                                     <p className="left-chat">
                                         She looks so happy! The time we discussed works. How long shall I take her out for?
                                     </p>
                                     <div className="d-flex flex-row justify-content-between align-items-center left-chat-check">
-                                        <div className="d-flex flex-row">
-                                            <input type="radio" id="selection" name="time-walk" value="30"/>
+                                        <div className="d-flex flex-row gap-2">
+                                            <input type="radio" id="selection" className="price-select" name="time-walk" value="30"/>
                                             <p class="user-choice-text">
                                                 30 minute walk
                                             </p>
@@ -75,8 +75,8 @@ const AppUI = () => {
                                         <p className="choice-price">$29</p>
                                     </div>
                                     <div className="d-flex flex-row justify-content-between align-items-center left-chat-check">
-                                        <div className="d-flex flex-row">
-                                            <input type="radio" id="selection" name="time-walk" value="30"/>
+                                        <div className="d-flex flex-row gap-2">
+                                            <input type="radio" id="selection" className="price-select" name="time-walk" value="30"/>
                                             <p className="user-choice-text">
                                                 1 hour walk
                                             </p>
@@ -84,10 +84,10 @@ const AppUI = () => {
                                         <p className="choice-price">$49</p>
                                     </div>
                                 </div>
-                                <div className="d-flex flex-row content-col">
-                                    <input type="text" placeholder="Type a message..." className="text-placeholder"></input>
-                                    <div className="send-btn">
-                                        <img src={SendIcon} className="send-icon" alt="Send button icon"/>
+                                <div className="d-flex flex-row align-items-center justify-content-center content-col msg-col">
+                                    <div className="d-flex flex-row align-items-center justify-content-between msg-placeholder">
+                                        <input type="text" placeholder="Type a message..." className="text-placeholder"></input>
+                                        <img src={SendIcon} className="send-btn" alt="Send button icon"/>
                                     </div>
                                 </div>
                             </div>

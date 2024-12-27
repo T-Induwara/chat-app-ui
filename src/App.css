@@ -245,6 +245,64 @@
     padding:0.4rem;
     border-radius:0.6rem 0.6rem 0.6rem 0.2rem;
 }
+/* Hide the default radio button */
+input[type='radio']{
+    visibility: hidden;
+}
+input[type='radio']:after {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 10rem;
+    background-color: #d1d3d100;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid var(--VeryLightMagenta);
+    margin-top:0.2rem;
+}
+
+input[type='radio']:checked:after {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 10rem;
+    background-color: var(--White);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid var(--VeryLightMagenta);
+}
+.choice-price{
+    font-family:'Rubik700';
+    font-size:0.7rem;
+}
+.msg-col{
+}
+.msg-placeholder{
+    width:100%;
+    background-color:var(--White);
+    padding:0.2rem 0.4rem;
+    border-radius:10rem;
+}
+.text-placeholder{
+    font-family:'Rubik400';
+    font-size:0.6rem;
+    outline:none;
+    border:0px;
+    background-color:var(--White);
+}
+.text-placeholder::placeholder{
+    font-family:'Rubik400';
+    font-size:0.6rem;
+    padding-left:1rem;
+}
+.send-btn{
+    width:1.4rem;
+    height:1.4rem;
+    background-color:var(--VeryDarkDesaturatedViolet);
+    padding:0.35rem;
+    border-radius:10rem;
+}
+
 /*CSS for chat section start*/
 
 
