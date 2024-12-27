@@ -207,6 +207,22 @@
 }
 /*CSS for menu col end*/
 
+/*CSS for chat section start*/
+.content-col{
+    width:70%;
+    padding:0.5rem;
+}
+.left-chat{
+    font-family:'Rubik400';
+    color:var(--ModerateViolet);
+    font-size:0.5rem;
+    background-color: hsl(272, 46%, 93%);
+    padding:0.5rem;
+    border-radius:0.6rem 0.6rem 0.6rem 0.2rem;
+}
+/*CSS for chat section start*/
+
+
 @media only screen and (min-width:768px){
     .app{
         background-color: var(--GrayishWhite);
