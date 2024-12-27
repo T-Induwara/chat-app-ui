@@ -21,14 +21,14 @@ Main target of this challenge is to let users view the optimal layout for the co
 
 ### User Interface
 
-![](https://i.ibb.co/4tQ8JrS/social-link-app-mobile-ui.png)
+![](https://i.ibb.co/3ksHjrr/tidev-chatapp-mobile.png)
 
-![](https://i.ibb.co/3p5WVSj/social-link-app-desktop-ui.png)
+![](https://i.ibb.co/x5KZLnp/tidev-chatapp-pc.png)
 
 ### Links
 
-- Solution URL: [Visit](https://www.frontendmentor.io/solutions/multi-step-form-8Kx4n8j2Wz)
-- Live Site URL: [Visit](https://social-links-preview.vercel.app/)
+- Solution URL: [Visit](https://www.frontendmentor.io/solutions/chat-app-ui-challenge-solution-by-tharusha-EJJGCpOmsc)
+- Live Site URL: [Visit](https://chat-app-ui-gilt.vercel.app/)
 
 ## My process
 
@@ -39,7 +39,7 @@ Main target of this challenge is to let users view the optimal layout for the co
 
 ### What I learned
 
-Since this is my very first React JS project on Frontend Mentor, I can say I learned new things about React JS, without a doubt. For example, how to use Node Package Manager and much more.
+First of all, I must mention that this is the first Frontend Mentor solution that took a longer time period among my challenges. Other than that everything is the same as other projects. However, this project helped me a lot to sharpen my knowledge about REM and EM relative units in CSS.
 
 ## Author
 
