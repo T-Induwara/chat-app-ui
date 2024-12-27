@@ -40,7 +40,7 @@ const AppUI = () => {
                                 </div>
                             </div>
                             <div className="ui-content">
-                                <div className="content-col">
+                                <div className="d-flex flex-column align-items-left content-col">
                                     <p className="left-chat">
                                         That sounds great. I'd be happy with that.
                                     </p>
@@ -48,11 +48,11 @@ const AppUI = () => {
                                         Could you send over some pictures of your dog, please?
                                     </p>
                                 </div>
-                                <div className="content-col">
-                                    <div className="d-flex flex-row pet-images">
-                                        <img src={DogPic1} className="dog-img" alt="Dog image"/>
-                                        <img src={DogPic2} className="dog-img" alt="Dog image"/>
-                                        <img src={DogPic3} className="dog-img" alt="Dog image"/>
+                                <div className="d-flex flex-column align-items-end content-col">
+                                    <div className="d-flex flex-row justify-content-end gap-2 pet-images">
+                                        <img src={DogPic1} className="dog-img" alt="Dog imag"/>
+                                        <img src={DogPic2} className="dog-img" alt="Dog img"/>
+                                        <img src={DogPic3} className="dog-img" alt="Dog img"/>
                                     </div>
                                     <p className="right-chat">
                                         Here are a few picture. She's a happy girl!
@@ -65,7 +65,7 @@ const AppUI = () => {
                                     <p className="left-chat">
                                         She looks so happy! The time we discussed works. How long shall I take her out for?
                                     </p>
-                                    <div className="d-flex flex-row left-chat-check">
+                                    <div className="d-flex flex-row justify-content-between align-items-center left-chat-check">
                                         <div className="d-flex flex-row">
                                             <input type="radio" id="selection" name="time-walk" value="30"/>
                                             <p class="user-choice-text">
@@ -74,7 +74,7 @@ const AppUI = () => {
                                         </div>
                                         <p className="choice-price">$29</p>
                                     </div>
-                                    <div className="d-flex flex-row left-chat-check">
+                                    <div className="d-flex flex-row justify-content-between align-items-center left-chat-check">
                                         <div className="d-flex flex-row">
                                             <input type="radio" id="selection" name="time-walk" value="30"/>
                                             <p className="user-choice-text">
